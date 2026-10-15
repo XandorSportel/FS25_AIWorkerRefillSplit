@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="105" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+    <author>Joxy</author>
+    <version>1.1.0.0</version>
+
+    <title>
+        <en>AI Worker Refill Split</en>
+        <nl>AI-werker bijvullen gesplitst</nl>
+    </title>
+
+    <description>
+        <en><![CDATA[
+Replaces the base-game "AI Worker Refill - Fertilizer" setting with four separate options for solid fertilizer, liquid fertilizer, lime and herbicide. Each refill type can be enabled or disabled independently in Game Settings.
+
+Changelog 1.1.0.0:
+- Replaced the combined fertilizer setting with four independent refill settings.
+- Added separate controls for solid fertilizer, liquid fertilizer, lime and herbicide.
+- Added persistent storage for all four settings.
+- Improved compatibility when locating and replacing the base-game setting.
+- Added a custom mod icon and updated documentation.
+
+Changelog 1.0.0.1:
+- Moved "AI Worker Refill - Lime" directly below the base-game fertilizer option.
+- Added a fallback placement for compatibility with future menu-layout changes.
+
+Changelog 1.0.0.0:
+- Initial release with a separate AI worker lime refill setting.
+        ]]></en>
+        <nl><![CDATA[
+Vervangt de standaardinstelling "AI-werker bijvullen - Meststof" door vier afzonderlijke opties voor kunstmest, vloeibare kunstmest, kalk en herbicide. Elk type kan afzonderlijk worden in- of uitgeschakeld in de spelinstellingen.
+
+Wijzigingen 1.1.0.0:
+- De gecombineerde meststofinstelling is vervangen door vier afzonderlijke bijvulinstellingen.
+- Afzonderlijke opties toegevoegd voor kunstmest, vloeibare kunstmest, kalk en herbicide.
+- Permanente opslag toegevoegd voor alle vier de instellingen.
+- Verbeterde compatibiliteit bij het vinden en vervangen van de standaardinstelling.
+- Een eigen mod-pictogram en bijgewerkte documentatie toegevoegd.
+
+Wijzigingen 1.0.0.1:
+- "AI Worker Refill - Lime" direct onder de standaard meststofoptie geplaatst.
+- Fallback-plaatsing toegevoegd voor compatibiliteit met toekomstige menu-indelingswijzigingen.
+
+Wijzigingen 1.0.0.0:
+- Eerste versie met een afzonderlijke instelling voor het bijvullen van kalk door AI-werkers.
+        ]]></nl>
+    </description>
+
+    <iconFilename>icon_AIWorkerRefillSplit.dds</iconFilename>
+
+    <multiplayer supported="false"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/AIWorkerRefillSplit.lua"/>
+    </extraSourceFiles>
+
+    <l10n>
+        <text name="awrs_section_title">
+            <en>AI Worker Refill Split</en>
+            <nl>AI-werker bijvullen</nl>
+        </text>
+        <text name="awrs_lime_short">
+            <en>AI Worker Refill - Lime</en>
+            <nl>AI-werker bijvullen - Kalk</nl>
+        </text>
+        <text name="awrs_lime_long">
+            <en>Allow AI workers to buy lime automatically when the spreader is empty.</en>
+            <nl>Sta AI-werkers toe automatisch kalk te kopen wanneer de strooier leeg is.</nl>
+        </text>
+        <text name="awrs_solidFertilizer_short">
+            <en>AI Worker Refill - Solid Fertilizer</en>
+            <de>KI-Helfer Nachfüllen - Mineraldünger</de>
+            <nl>AI-werker bijvullen - Kunstmest</nl>
+        </text>
+        <text name="awrs_solidFertilizer_long">
+            <en>Allow AI workers to buy solid fertilizer automatically when the spreader is empty.</en>
+            <de>Erlaubt KI-Helfern, Mineraldünger automatisch zu kaufen, wenn der Streuer leer ist.</de>
+            <nl>Sta AI-werkers toe automatisch kunstmest te kopen wanneer de strooier leeg is.</nl>
+        </text>
+        <text name="awrs_liquidFertilizer_short">
+            <en>AI Worker Refill - Liquid Fertilizer</en>
+            <de>KI-Helfer Nachfüllen - Flüssigdünger</de>
+            <nl>AI-werker bijvullen - Vloeibare kunstmest</nl>
+        </text>
+        <text name="awrs_liquidFertilizer_long">
+            <en>Allow AI workers to buy liquid fertilizer automatically when the sprayer is empty.</en>
+            <de>Erlaubt KI-Helfern, Flüssigdünger automatisch zu kaufen, wenn die Feldspritze leer ist.</de>
+            <nl>Sta AI-werkers toe automatisch vloeibare kunstmest te kopen wanneer de veldspuit leeg is.</nl>
+        </text>
+        <text name="awrs_herbicide_short">
+            <en>AI Worker Refill - Herbicide</en>
+            <de>KI-Helfer Nachfüllen - Herbizid</de>
+            <nl>AI-werker bijvullen - Herbicide</nl>
+        </text>
+        <text name="awrs_herbicide_long">
+            <en>Allow AI workers to buy herbicide automatically when the sprayer is empty.</en>
+            <de>Erlaubt KI-Helfern, Herbizid automatisch zu kaufen, wenn die Feldspritze leer ist.</de>
+            <nl>Sta AI-werkers toe automatisch herbicide te kopen wanneer de veldspuit leeg is.</nl>
+        </text>
+    </l10n>
+</modDesc>
