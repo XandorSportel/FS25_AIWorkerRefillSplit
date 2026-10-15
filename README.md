@@ -13,7 +13,7 @@ All four refill settings are stored in:
 
 ## Installation
 
-1. Go to the [releases](link) page.
+1. Go to the [releases](https://github.com/XandorSportel/FS25_AIWorkerRefillSplit/releases) page.
 2. Download `FS25_AIWorkerRefillSplit.zip` from the latest release.
 3. Copy the zip file to your FS25 mods folder. (Replace the existing one if you have previously installed an older version)
 
